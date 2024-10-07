@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    --outline: 2px dotted red;
+}
+
+.main{
+    height: 400px;
+    width: 600px;
+    background: ivory;
+    display: flex;
+    position: relative;
+    left: 25%;
+    margin: 5px;
+    outline: 2px solid black;
+    
+    
+}
+
+.titel{
+    height: 50px;
+    width: 600px;
+    margin: 15px;
+    padding: 15px;
+    background:rgb(104, 165, 104);
+    display:flex;
+    align-items: center;
+    color: ivory;
+}
+.rambild{
+    border: 6px solid #333; 
+    width: 120px;
+    background: #333;
+    color:ivory;
+    position: relative;
+    top: 90px;
+    left: 40%;
+    transform: rotate(6deg);
+    
+    
+}
+.rambild img{
+    display: flex; 
+    margin-bottom: 10px;
+    width: 100%;
+}
+.ingress{
+    position: absolute;
+    margin-left: 15px; 
+    margin-top: 15%; 
+    max-width: calc(100% - 31%); 
+}
+.brdtext{
+    position: absolute;
+    margin-top: 40%;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+byline{
+    position: absolute;
+    width: 100%;
+    margin-top: 60%;
+    padding-left: 10px;
+    background-color: rgb(104, 165, 104);
+    color: ivory;
+}
